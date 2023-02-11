@@ -1,20 +1,22 @@
-TikTok to Mastodon
+#TikTok to Mastodon
 
-A NodeJS script that posts a new status to Mastodon when a new TikTok video is posted by a specific user.
+(STILL UNDER TESTING)
+
+#A NodeJS script that posts a new status to Mastodon when a new TikTok video is posted by a specific user.
 Requirements
 
     NodeJS v12 or later
     TikTok API key (register here)
     Mastodon API endpoint and access token
 
-Installation
+#Installation
 
-    Clone this repository: git clone https://github.com/your-username/tiktok-to-mastodon.git
-    Navigate to the repository: cd tiktok-to-mastodon
+    Clone this repository: git clone https://github.com/chiefgyk3d/tok-and-toot.git
+    Navigate to the repository: cd tok-and-toot
     Install dependencies: npm install
     Create a .env file in the root of the project and add your TikTok API key and Mastodon API credentials as follows:
 
-makefile
+#makefile
 
 TIKTOK_API_KEY=YOUR_TIKTOK_API_KEY
 MASTODON_API_ENDPOINT=https://your-mastodon-instance.com/api/v1/
@@ -22,7 +24,7 @@ MASTODON_ACCESS_TOKEN=YOUR_MASTODON_ACCESS_TOKEN
 
     Run the script: npm start
 
-Configuration
+#Configuration
 
 The script can be configured by editing the config.js file. You can specify the TikTok user's username, the frequency of the API calls, and the format of the Mastodon status.
 Contributing
